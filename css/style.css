@@ -1,1 +1,46 @@
-/* Enter your Styles below! */
+a {
+text-decoration: none;
+}
+
+
+
+a:hover {
+color: purple;
+
+}
+
+
+
+
+h2 {
+	text-align: center;
+
+}
+
+nav ul{
+
+	list-style-type: none;
+
+}
+
+nav li {
+
+display: inline-block;
+margin-right: 20px;
+text-transform: uppercase;
+padding-top: 16px;
+margin-top: 40px;
+background-color: grey;
+
+
+}
+
+header{
+display: grid;
+grid-template-columns: 40% 60%;
+
+
+}
+
+
+
