@@ -11,8 +11,8 @@ color: purple;
 
 
 
-
-h2 {
+h2, 
+.homepage {
 	text-align: center;
 
 }
@@ -30,7 +30,8 @@ margin-right: 20px;
 text-transform: uppercase;
 padding-top: 16px;
 margin-top: 40px;
-background-color: grey;
+background-color: lightgrey;
+
 
 
 }
@@ -43,4 +44,46 @@ grid-template-columns: 40% 60%;
 }
 
 
+body{
+background-size: cover;
+background-position: 20, 50%;
+
+
+
+}
+
+background-image: URL(../images/3H6A1551.jpg);
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1em;
+}
+
+header,
+aside,
+article,
+footer {
+  background: #eaeaea;
+  padding: 1em;
+}
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+}
+
+.grid > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
