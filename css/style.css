@@ -77,7 +77,7 @@ padding-top: 30px;
 
 
 h3, 
-.chicago,
+
 .maui,
 .vancouverbc 
 {
@@ -191,14 +191,161 @@ padding-bottom: 100px;
 
 }
 
-.header-img { 
-  background-image: url(../images/3H6A1553.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 1000px;
-  margin: 0;
+.mauisunset,
+.mauivolcano, 
+.molokini{
+
+max-height: 120%;
+max-width: 120%;
+padding-bottom: 50px;
+padding-top: 50px;
+
+}
+
+
+ .row1{
+
+margin-left: 50px;
+margin-right: 50px;
+
+  }
+
+.mauidescription {
+  float: left;
+  width: 25%;
+  padding: 30px;
+  height: 300px;
+  margin-left: 50px;
+
+
+  }
+
+   .row2{
+
+margin-left: 50px;
+margin-right: 50px;
+
+  }
+
+  .sunset {
+  float: left;
+  width: 25%;
+  padding-right: 10px;
+  padding-top: 30px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: none;
+
+  }
+
+
+ .volcano {
+  float: right;
+  width: 25%;
+  padding: 30px;
+  height: 300px;
+  
+
+  }
+   .island{
+  float: right;
+  width: 25%;
+  padding: 30px;
+  margin-top: none;
+  margin-left: none;
+  height: 300px;
+
+
+  }
+
+
+
+.chicagoheader {
+
+size: contain;
+}
+
+.chicagoheadertype{
+
+
+}
+
+
+.chicagodescription {
+  float: left;
+  width: 33.3%;
+  padding: 30px;
+  height: 300px;
+  margin-left: 50px;
+
+  }
+
+  .chicago360grid {
+  float: right;
+  width: 33.3%;
+  padding-left: 30px;
+  height: 300px;
+
+
+  }
+
+  .chicagotheatregrid {
+  float: right;
+  width: 33.3%;
+  padding-left: 30px;
+  height: 300px;
  
- }
+
+  }
+
+
+  .bcdescription{
+  float: left;
+  width: 33.3%;
+  padding: 30px;
+  height: 300px;
+  margin-left: 50px;
+
+  }
+
+  .waterfallgrid {
+  float: right;
+  width: 33.3%;
+  padding-left: 30px;
+  height: 300px;
+
+
+  }
+
+  .bridgegrid {
+  float: right;
+  width: 33.3%;
+  padding-left: 30px;
+  height: 300px;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .about-page header {
@@ -228,8 +375,8 @@ padding-top: 100px;
 }
 
 .about-page, img {
-  max-width: 2000px;
-  max-height: 800px;
+  max-width: 100%;
+  max-height: 100%;
 
 }
 
@@ -239,40 +386,6 @@ width: 100%;
 height: 700px;
 
 
-}
-
-
-.mauiheader {
-
-  margin-top: -120;
-  height: 100%;
-  max-width: 100% ;
-}
-
-
-
-.mauisunset,
-.mauivolcano, 
-.molokini{
-
-height: auto;
-width: auto;
-
-}
-
-
-.mauipage {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 30px;
-  margin: 60px;
-  margin-left: 800px;
-  margin-right: 1100px;
-  padding-right: 100px;
-  padding-left: 100px;
-  column-width: 100px; 
-padding-bottom: 100px;
-padding-top: 100px;
 }
 
 .grid-container {
