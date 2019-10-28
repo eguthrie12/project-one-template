@@ -92,6 +92,8 @@ h3,
 }
 
 
+/* Nav */ 
+
 .navbar {
   overflow: hidden;
   text-transform: uppercase;
@@ -192,6 +194,7 @@ padding-bottom: 100px;
 }
 
 
+/* Maui */
 
 .grid4{
 display: grid;
@@ -233,98 +236,79 @@ padding-bottom: 100px;}
 
 
 
+/* Chicago */
 
-
-
-
-.chicagoheader {
-
-size: contain;
+.grid3{
+display: grid;
+grid-template-columns: 1fr, 1fr, 1fr;
+display: inline-block;
 }
 
-.chicagoheadertype{
+img .pics
+{width: 300px;
+margin-bottom: 50px;}
+
+.chicagodescription 
+{width: 75%;
+margin-left: 120px;
+margin-right: 250px;
+line-height: 140%;
+font-size: 32px;
+letter-spacing: .3px;}
+
+.chicagopage .row1
+{float: left;
+width: 28%}
+
+.chicagopage .bodytext
+{width: 91%;
+padding-right: auto;
+padding-left: 15px;
+font-size: 24px;
+line-height: 145%;
+letter-spacing: .75px;
+padding-bottom: 100px;
+padding-top: 60px;}
 
 
+  /*BC*/
+
+.grid4
+{display: grid;
+grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+display: inline-block;
 }
 
 
-.chicagodescription {
-  float: left;
-  width: 33.3%;
-  padding: 30px;
-  height: 300px;
-  margin-left: 50px;
+.bcdescription 
+{width: 50%;
+margin-left: 120px;
+margin-right: 250px;
+line-height: 140%;
+font-size: 32px;
+letter-spacing: .3px;}
 
-  }
+.bcpage .row1
+{float: left;
+width: 28%}
 
-  .chicago360grid {
-  float: right;
-  width: 33.3%;
-  padding-left: 30px;
-  height: 300px;
+.bcpage .bodytext
+{width: 91%;
+padding-right: auto;
+padding-left: 15px;
+font-size: 24px;
+line-height: 145%;
+letter-spacing: .75px;
+padding-bottom: 100px;
+padding-top: 60px;}
 
-
-  }
-
-  .chicagotheatregrid {
-  float: right;
-  width: 33.3%;
-  padding-left: 30px;
-  height: 300px;
- 
-
-  }
-
-
-  .bcdescription{
-  float: left;
-  width: 33.3%;
-  padding: 30px;
-  height: 300px;
-  margin-left: 50px;
-
-  }
-
-  .waterfallgrid {
-  float: right;
-  width: 33.3%;
-  padding-left: 30px;
-  height: 300px;
+img .pics
+{width: 300px;
+margin-bottom: 50px;}
 
 
 
-  }
-
-  .bridgegrid {
-  float: right;
-  width: 33.3%;
-  padding-left: 30px;
-  height: 300px;
-margin-top: 30px;
-
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* About */
 
 
 .about-page header {
