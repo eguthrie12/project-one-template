@@ -70,9 +70,8 @@ h2,
   font-size: 250px;
   margin: auto;
   text-align: center;
-padding-top: 30px;
-
-  text-transform: uppercase;
+ padding-top: 30px;
+ text-transform: uppercase;
 }
 
 
@@ -89,6 +88,7 @@ h3,
   margin: 90px auto;
   text-align: center;
   text-transform: uppercase;
+  font-size: 40px;
 }
 
 
@@ -196,6 +196,29 @@ padding-bottom: 100px;
 
 /* Maui */
 
+
+.destinationname h2{     
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: -50%;
+  width: 100%;
+  margin-top: 100px;
+  
+}
+
+.mauiii{
+
+  background-image: url(../images/IMG_0181.jpg);
+  background-size: cover;
+  background-position: 20% 50%;
+  position: relative;
+  margin: 0;
+  height: 700px;
+  width: 100% ;
+margin-bottom: 200px;
+margin-top: -120px;}
+
 .grid4{
 display: grid;
 grid-template-columns:1fr, 1fr, 1fr, 1fr;
@@ -238,6 +261,19 @@ padding-bottom: 100px;}
 
 /* Chicago */
 
+
+.chicagoheader{
+
+  background-image: url(../images/3H6A0295.jpg);
+  background-size: cover;
+  background-position: 20% 50%;
+  margin: 0;
+  height: 700px;
+  width: 100% ;
+  margin-bottom: 200px;
+  margin-top: -120px;
+}
+
 .grid3{
 display: grid;
 grid-template-columns: 1fr, 1fr, 1fr;
@@ -272,6 +308,18 @@ padding-top: 60px;}
 
 
   /*BC*/
+
+
+  .bcheader 
+  { background-image: url(../images/BCHeader.jpg);
+    background-size: cover;
+    background-position: 20% 50%;
+    margin: 0;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: -120px;
+}
 
 .bcpage .grid4
 {display: grid;
@@ -321,7 +369,7 @@ margin-top: -90px;}
   margin: 0;
   height: 700px;
   width: 100% ;
- margin-top: -120px;
+  margin-top: -120px;
 }
 
 
@@ -336,8 +384,8 @@ margin-top: -90px;}
   padding-right: 100px;
   padding-left: 100px;
   column-width: 100px; 
-padding-bottom: 100px;
-padding-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .about-page, img {
@@ -365,7 +413,7 @@ height: 700px;
 
 
 p {
-font-family: operetta-12, serif;
+ font-family: operetta-12, serif;
   font-weight: 40;
   font-style: normal;
   color: black;
@@ -393,8 +441,8 @@ footer,
   font-size: 20px;
   margin: 90px auto;
   text-transform: none;
- margin-top: none;
- margin-bottom: none;
+  margin-top: 2000px;
+  margin-bottom: none;
   background: #ECECEC;
   padding: 1em;
 
