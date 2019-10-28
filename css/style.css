@@ -81,7 +81,7 @@ h3,
 .maui,
 .vancouverbc 
 {
- font-family: operetta-12, serif;
+  font-family: operetta-12, serif;
   font-weight: 700;
   font-style: normal;
   color: white;
@@ -191,72 +191,49 @@ padding-bottom: 100px;
 
 }
 
+
+
+.grid4{
+display: grid;
+grid-template-columns:1fr, 1fr, 1fr, 1fr;
+display: inline-block;
+}
+
+.help
+{margin-right: -1000px;}
+
 .mauisunset,
 .mauivolcano, 
 .molokini{
 
-max-height: 120%;
-max-width: 120%;
-padding-bottom: 50px;
-padding-top: 50px;
+height: 700px;
+margin-left: 120px;
+margin-bottom: 75px; }
 
-}
+.mauidescription 
+{width: 85%;
+margin-left: 120px;
+margin-right: 250px;
+line-height: 140%;
+font-size: 32px;
+letter-spacing: .3px;}
 
+.row1
+{float: left;
+width: 20%;}
 
- .row1{
-
-margin-left: 50px;
-margin-right: 50px;
-
-  }
-
-.mauidescription {
-  float: left;
-  width: 25%;
-  padding: 30px;
-  height: 300px;
-  margin-left: 50px;
-
-
-  }
-
-   .row2{
-
-margin-left: 50px;
-margin-right: 50px;
-
-  }
-
-  .sunset {
-  float: left;
-  width: 25%;
-  padding-right: 10px;
-  padding-top: 30px;
-  height: 300px;
-  margin-left: 20px;
-  margin-right: none;
-
-  }
+.bodytext
+{width: 80%;
+padding-right: auto;
+padding-left: 130px;
+font-size: 24px;
+line-height: 145%;
+letter-spacing: .75px;
+padding-bottom: 100px;}
 
 
- .volcano {
-  float: right;
-  width: 25%;
-  padding: 30px;
-  height: 300px;
-  
-
-  }
-   .island{
-  float: right;
-  width: 25%;
-  padding: 30px;
-  margin-top: none;
-  margin-left: none;
-  height: 300px;
 
 
-  }
 
 
 
@@ -315,6 +292,7 @@ size: contain;
   height: 300px;
 
 
+
   }
 
   .bridgegrid {
@@ -322,6 +300,7 @@ size: contain;
   width: 33.3%;
   padding-left: 30px;
   height: 300px;
+margin-top: 30px;
 
 
   }
